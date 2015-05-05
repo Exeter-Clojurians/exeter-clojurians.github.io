@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss version='2.0' xmlns:atom='http://www.w3.org/2005/Atom'>
+<channel>
+<atom:link href='http://exeter-clojurians.space/' rel='self' type='application/rss+xml'/>
+<generator>
+clj-rss
+</generator>
+<title>
+Exeter Clojurians
+</title>
+<link>
+http://exeter-clojurians.space/
+</link>
+<description>
+Exeter Clojurian Geekery
+</description>
+<lastBuildDate>
+Tue, 05 May 2015 11:08:58 +0100
+</lastBuildDate>
+<author>
+Exeter Clojurians
+</author>
+<item>
+<guid>
+http://exeter-clojurians.space/posts/2015-04-29-the-quine.html
+</guid>
+<link>
+http://exeter-clojurians.space/posts/2015-04-29-the-quine.html
+</link>
+<title>
+The quine - 29-05-2015
+</title>
+<description>
+&lt;h3&gt;&lt;a name=&quot;meet&amp;#95;#2&quot;&gt;&lt;/a&gt;Meet #2&lt;/h3&gt;&lt;blockquote&gt;&lt;p&gt; A quine is a non-empty computer program which takes no input and produces a copy of its own source code as its only output. The standard terms for these programs in the computability theory and computer science literature are &quot;self-replicating programs&quot;, &quot;self-reproducing programs&quot;, and &quot;self-copying programs&quot;. &lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;We came up with the following masterpieces :&lt;/p&gt;&lt;p&gt;In Common Lisp, courtesy of hhdave :&lt;/p&gt;&lt;pre&gt;&lt;code&gt;&amp;#40;defun f &amp;#40;&amp;#41;
+ &amp;#40;let &amp;#40;&amp;#40;quote &amp;#40;string &amp;#40;code-char 34&amp;#41;&amp;#41;&amp;#41;&amp;#41;
+   &amp;#40;flet &amp;#40;&amp;#40;g &amp;#40;x&amp;#41;
+            &amp;#40;str &amp;quot;&amp;#40;defun f &amp;#40;&amp;#41; &amp;#40;let &amp;#40;&amp;#40;quote &amp;#40;string &amp;#40;code-char 34&amp;#41;&amp;#41;&amp;#41;&amp;#41; &amp;#40;flet &amp;#40;&amp;#40;g &amp;#40;x&amp;#41; &amp;#40;str &amp;quot; x &amp;quot;&amp;#41;&amp;#41;&amp;#41; &amp;#40;g &amp;#40;str quote &amp;#40;g &amp;#40;str quote &amp;#40;string &amp;#40;code-char 120&amp;#41;&amp;#41;  quote&amp;#41;&amp;#41; quote&amp;#41;&amp;#41;&amp;#41;&amp;#41;&amp;#41; &amp;quot;&amp;#41;&amp;#41;&amp;#41;
+     &amp;#40;g &amp;#40;str quote &amp;#40;g &amp;#40;str quote &amp;#40;string &amp;#40;code-char 120&amp;#41;&amp;#41; quote &amp;#41;&amp;#41; quote&amp;#41;&amp;#41;&amp;#41;&amp;#41;&amp;#41;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;In Clojure, courtesy of eggman :&lt;/p&gt;&lt;pre&gt;&lt;code&gt;&amp;#40;def quine
+  &amp;#40;fn &amp;#91;&amp;#93;
+    &amp;#40;&amp;#40;fn &amp;#91;x&amp;#93; &amp;#40;list &amp;#40;quote fn&amp;#41; &amp;#91;&amp;#93; &amp;#40;list x &amp;#40;list &amp;#40;quote quote&amp;#41; x&amp;#41;&amp;#41;&amp;#41;&amp;#41;
+      &amp;#40;quote &amp;#40;fn &amp;#91;x&amp;#93; &amp;#40;list &amp;#40;quote fn&amp;#41; &amp;#91;&amp;#93; &amp;#40;list x &amp;#40;list &amp;#40;quote quote&amp;#41; x&amp;#41;&amp;#41;&amp;#41;&amp;#41;&amp;#41;&amp;#41;&amp;#41;
+  &amp;#41;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Lots of fun was had.&lt;/p&gt;
+</description>
+<pubDate>
+Wed, 29 Apr 2015 00:00:00 +0100
+</pubDate>
+<author>
+Exeter Clojurians
+</author>
+</item>
+<item>
+<guid>
+http://exeter-clojurians.space/posts/2015-03-26-first-meet.html
+</guid>
+<link>
+http://exeter-clojurians.space/posts/2015-03-26-first-meet.html
+</link>
+<title>
+The first meet 26-03-2015
+</title>
+<description>
+&lt;h3&gt;&lt;a name=&quot;the&amp;#95;first&amp;#95;meet&quot;&gt;&lt;/a&gt;The first meet&lt;/h3&gt;&lt;p&gt;We met, we talked Clojure, we left.&lt;/p&gt;
+</description>
+<pubDate>
+Thu, 26 Mar 2015 00:00:00 +0000
+</pubDate>
+<author>
+Exeter Clojurians
+</author>
+</item>
+</channel>
+</rss>
