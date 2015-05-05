@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss version='2.0' xmlns:atom='http://www.w3.org/2005/Atom'>
+<channel>
+<atom:link href='http://exeter-clojurians.space/' rel='self' type='application/rss+xml'/>
+<generator>
+clj-rss
+</generator>
+<title>
+Exeter Clojurians
+</title>
+<link>
+http://exeter-clojurians.space/
+</link>
+<description>
+Exeter Clojurian Geekery
+</description>
+<lastBuildDate>
+Tue, 05 May 2015 11:08:58 +0100
+</lastBuildDate>
+<author>
+Exeter Clojurians
+</author>
+</channel>
+</rss>
