@@ -15,11 +15,31 @@ http://exeter-clojurians.space/
 Exeter Clojurian Geekery
 </description>
 <lastBuildDate>
-Tue, 02 Jun 2015 08:38:39 +0100
+Wed, 24 Jun 2015 13:13:19 +0100
 </lastBuildDate>
 <author>
 Exeter Clojurians
 </author>
+<item>
+<guid>
+http://exeter-clojurians.space/posts/2015-06-24-monads.html
+</guid>
+<link>
+http://exeter-clojurians.space/posts/2015-06-24-monads.html
+</link>
+<title>
+Fourth meet - 23-06-2015
+</title>
+<description>
+&lt;h3&gt;&lt;a name=&quot;meet&amp;#95;#4&quot;&gt;&lt;/a&gt;Meet #4&lt;/h3&gt;&lt;h1&gt;&lt;a name=&quot;congratulations&quot;&gt;&lt;/a&gt;Congratulations&lt;/h1&gt;&lt;p&gt;Congratulations was extended to John on the arrival of his child. It was impressive that the birth only caused him to miss one meetup. &lt;/p&gt;&lt;h1&gt;&lt;a name=&quot;monads&quot;&gt;&lt;/a&gt;Monads&lt;/h1&gt;&lt;p&gt;The meet started off with a lively discussion on Monads. The analogy of a box was used to aid the explanation. A Monad can be likened to a box that contains a context - the context could be a number, a list of numbers or all kinds of other things. The Monad has a &lt;code&gt;bind&lt;/code&gt; function. This &lt;code&gt;bind&lt;/code&gt; function takes a function as a parameter. Using that function it &lt;code&gt;bind&lt;/code&gt; applies it to the Monads context and spits out a new Monad that contains the results of the function applied to the context.&lt;/p&gt;&lt;p&gt;&lt;a href='http://adit.io/posts/2013-04-17-functors,&amp;#95;applicatives,&amp;#95;and&amp;#95;monads&amp;#95;in&amp;#95;pictures.html'&gt;This article&lt;/a&gt; explains it better.&lt;/p&gt;&lt;p&gt;Once we all understood the concept of Monads and had clarified how the word Monad should be pronounced, we explored how Monads could be used in Clojure. There are a number of &lt;a href='https://github.com/clojure/algo.monads'&gt;Clojure libraries&lt;/a&gt; that enable Monads. However, it was generally felt that Monads in Clojure aren't used that often.&lt;/p&gt;&lt;p&gt;hhdave demonstrated a web Monad developed in Common Lisp that was used to define the flow of data between a web client and server. Discussion ensued as to how idiomatic it's use would be within Clojure.&lt;/p&gt;&lt;h1&gt;&lt;a name=&quot;om&quot;&gt;&lt;/a&gt;OM&lt;/h1&gt;&lt;p&gt;There was a brief demonstration of &lt;a href='https://github.com/omcljs/om'&gt;Om&lt;/a&gt; - a ClojureScript wrapper of ReactJS. ClojureScripts powerful interactive development model was highlighted. A Repl was connected to the running browser which allowed modifications to any code to be injected into the browser without reloading the page. Interactively evaluating and modifying the system state from within the Repl was also demonstrated.&lt;/p&gt;&lt;h1&gt;&lt;a name=&quot;minecraft&quot;&gt;&lt;/a&gt;Minecraft&lt;/h1&gt;&lt;p&gt;The potential for using Clojure to develop Minecraft plugins was discussed. Due to it's interactive nature Clojure could be the ideal language for rapidly developing plugins - especially if you could connect the Repl directly into the game server. One to explore.&lt;/p&gt;&lt;h1&gt;&lt;a name=&quot;operating&amp;#95;systems&quot;&gt;&lt;/a&gt;Operating Systems&lt;/h1&gt;&lt;p&gt;It was noted that every single laptop was a MacBook. A number of members did express a preference for Linux. BSD was mentioned, it was pointed out that the options for a number of commands were different to the Linux variants which could be highly annoying. However BSD is and always will be the True Unix. &lt;/p&gt;&lt;h1&gt;&lt;a name=&quot;jobs&quot;&gt;&lt;/a&gt;Jobs&lt;/h1&gt;&lt;p&gt;We bemoaned the lack of jobs available in Clojure. It was noted that the problem goes both ways, many companies are hesitant to start projects using Clojure due to a lack of available developers and many developers are hesitant to invest time learning Clojure due to the lack of available jobs. A catch-22 situation.&lt;/p&gt;&lt;h1&gt;&lt;a name=&quot;next&amp;#95;meet&quot;&gt;&lt;/a&gt;Next meet&lt;/h1&gt;&lt;p&gt;It was decided that the next meet should be spent getting down and dirty with some real coding. We need to decide exactly what over the next few weeks.&lt;/p&gt;
+</description>
+<pubDate>
+Wed, 24 Jun 2015 00:00:00 +0100
+</pubDate>
+<author>
+Exeter Clojurians
+</author>
+</item>
 <item>
 <guid>
 http://exeter-clojurians.space/posts/2015-05-27-meet.html
