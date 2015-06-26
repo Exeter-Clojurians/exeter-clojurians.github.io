@@ -11,7 +11,7 @@ Then learn a bit of Clojure with [http://learnxinyminutes.com/docs/clojure/](htt
 
 As you learn, solve a few [puzzles](https://www.4clojure.com/).
 
-The best place to look up documentation is [Clojure docs](https://clojuredocs.org/).
+The best place to look up documentation is [Clojure docs](https://clojuredocs.org/). The [Cheat Sheet](http://clojure.org/cheatsheet) is also invaluable.
 
 When you are ready to do some web dev, by far the easiest way is to use the [Chestnut](https://github.com/plexus/chestnut) template. This generates a project with client and server all set up and has all the plugins set up right so you have a repl to both the server and the browser – it can be quite frustrating trying to get it all set up by hand.
 
