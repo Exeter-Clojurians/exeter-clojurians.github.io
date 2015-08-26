@@ -15,43 +15,23 @@ http://exeter-clojurians.space/
 Exeter Clojurian Geekery
 </description>
 <lastBuildDate>
-Wed, 26 Aug 2015 15:51:27 +0100
+Wed, 26 Aug 2015 16:00:27 +0100
 </lastBuildDate>
 <author>
 Exeter Clojurians
 </author>
 <item>
 <guid>
-http://exeter-clojurians.space/posts/2015-08-25-stuff.html
+http://exeter-clojurians.space/posts/2015-08-25-satisfaction.html
 </guid>
 <link>
-http://exeter-clojurians.space/posts/2015-08-25-stuff.html
+http://exeter-clojurians.space/posts/2015-08-25-satisfaction.html
 </link>
 <title>
 Satisfaction 25-08-2015
 </title>
 <description>
 &lt;h3&gt;&lt;a name=&quot;meet&amp;#95;#6&quot;&gt;&lt;/a&gt;Meet #6&lt;/h3&gt;&lt;h1&gt;&lt;a name=&quot;pattern&amp;#95;matching&quot;&gt;&lt;/a&gt;Pattern matching&lt;/h1&gt;&lt;p&gt;Clojures &lt;a href='https://github.com/clojure/core.match'&gt;core.match&lt;/a&gt; is a great library, but unfortunately it doesn't work with top level function definitions in a way similar to multi-methods. We tried to come up with some possible solutions, but were unable to do so. The most pragmatic solution suggested was to use Haskell instead (ideal if you are using a containerized microservices style architecture).&lt;/p&gt;&lt;h1&gt;&lt;a name=&quot;containers&quot;&gt;&lt;/a&gt;Containers&lt;/h1&gt;&lt;p&gt;We had a long discussion on the current state of containers. There is a lot of excitement in this field. Currently there are a number of problems such as user namespacing that Docker has not been able to resolve, but these problems will most likely resolve over time. Many are using containers incorrectly. Containers can be designed to be very short lived firing up just to tackle the task at hand and then shutting down again - often just over a period of microseconds. Some scepticism was expressed regarding anything running on the JVM to just quickly run up..&lt;/p&gt;&lt;h1&gt;&lt;a name=&quot;go&quot;&gt;&lt;/a&gt;Go&lt;/h1&gt;&lt;p&gt;We had a brief discussion on the Go programming language and it's use of interfaces and lack of generics.&lt;/p&gt;&lt;h1&gt;&lt;a name=&quot;functional&amp;#95;ui&amp;#95;design&quot;&gt;&lt;/a&gt;Functional UI design&lt;/h1&gt;&lt;p&gt;The conversation turned to User Interface implementation. Generally UI's are very well suited to Objects relying on mutation, so trying to implement them in a functional way can be quite unsatisfying. &lt;/p&gt;&lt;h1&gt;&lt;a name=&quot;so&amp;#95;long&amp;#95;dom!&quot;&gt;&lt;/a&gt;So long Dom!&lt;/h1&gt;&lt;p&gt;We said goodbye to Dom who is off to start the Leicester Clojurian chapter. Good luck and all the best!&lt;/p&gt;
-</description>
-<pubDate>
-Tue, 25 Aug 2015 00:00:00 +0100
-</pubDate>
-<author>
-Exeter Clojurians
-</author>
-</item>
-<item>
-<guid>
-http://exeter-clojurians.space/posts/2015-08-25-satisfaction.html
-</guid>
-<link>
-http://exeter-clojurians.space/posts/2015-08-25-satisfaction.html
-</link>
-<title>
-Satisfaction 25-08-2015
-</title>
-<description>
-&lt;h3&gt;&lt;a name=&quot;meet&amp;#95;#6&quot;&gt;&lt;/a&gt;Meet #6&lt;/h3&gt;&lt;h1&gt;&lt;a name=&quot;pattern&amp;#95;matching&quot;&gt;&lt;/a&gt;Pattern matching&lt;/h1&gt;&lt;p&gt;Clojures &lt;a href='https://github.com/clojure/core.match'&gt;core.match&lt;/a&gt; is a great library, but unfortunately it doesn't work with top level function definitions in a way similar to multi-methods. We tried to come up with some possible solutions, but were unable to so. The most pragmatic solution suggested was to use Haskell instead.&lt;/p&gt;&lt;h1&gt;&lt;a name=&quot;containers&quot;&gt;&lt;/a&gt;Containers&lt;/h1&gt;&lt;p&gt;We had a long discussion on the current state of containers. There is a lot of excitement in this field. Currently there are a number of problems such as user namespacing that Docker has not been able to resolve, but these problems will most likely resolve over time. Many are using containers incorrectly. Containers can be designed to be very short lived firing up just to tackle the task at hand and then shutting down again - often just over a period of microseconds. Some scepticism was expressed regarding anything running on the JVM to just quickly run up..&lt;/p&gt;&lt;h1&gt;&lt;a name=&quot;go&quot;&gt;&lt;/a&gt;Go&lt;/h1&gt;&lt;p&gt;We had a brief discussion on the Go programming language and it's use of interfaces and lack of generics.&lt;/p&gt;&lt;h1&gt;&lt;a name=&quot;functional&amp;#95;ui&amp;#95;design&quot;&gt;&lt;/a&gt;Functional UI design&lt;/h1&gt;&lt;p&gt;The conversation turned to User Interface implementation. Generally UI's are very well suited to Objects relying on mutation, so trying to implement them in a functional way can be quite unsatisfying. &lt;/p&gt;
 </description>
 <pubDate>
 Tue, 25 Aug 2015 00:00:00 +0100
