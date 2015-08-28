@@ -6,7 +6,7 @@
 
 # Pattern matching
 
-Clojures [core.match](https://github.com/clojure/core.match) is a great library, but unfortunately it doesn't work with top level function definitions in a way similar to multi-methods. We tried to come up with some possible solutions, but were unable to do so. The most pragmatic solution suggested was to use Haskell instead (ideal if you are using a containerized microservices style architecture).
+Clojures [core.match](https://github.com/clojure/core.match) is a great library, but unfortunately it doesn't work with top level function definitions in a way similar to multi-methods. We tried to come up with some possible solutions, but were unable to do so. It was suggested that a solution could be created using core.unify and ordering matches by tree complexity of the matching term.
 
 # Containers
 
